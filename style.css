@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.otf") format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+header nav ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header nav ul a {
+    line-height: 80px;
+    color: #d8d8d8;
+    transition: all .3s;
+}
+
+header nav ul a.selected,
+header nav ul a:hover {
+    color: #fe655f;
+}
+
+header nav {
+    background: #29242a;
+    padding: 0 100px;
+}
+
+header nav img.logo {
+    height: 60px;
+    margin: 10px 0;
+    display: block;
+    float: left;
+}
+
+.slide {
+    background: #282828;
+    color: #d8d8d8;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.slide h1 {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: normal;
+}
+
+.slide h1 span {
+    font-weight: bold;
+}
+
+.slide p {
+    color: #9b9b9b;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.button {
+    margin: 25px 0 15px;
+}
+
+.button a {
+    color: #d8d8d8;
+    background: #fe655f;
+    padding: 0 30px;
+    display: inline-block;
+    line-height: 36px;
+    border-radius: 5px;
+}
+
+.icons li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.icons li>* {
+    display: block;
+}
+
+.icons {
+    background: #f7f7f7;
+    padding: 50px 0;
+    color: #5a5a5a;
+}
+
+.icons ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.icons li strong {
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.icons li i {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.icons li span {
+    font-size: 14px;
+    color: #818181;
+}
+
+.gallery span {
+    margin: 10px 0 40px;
+    display: block;
+    line-height: 20px;
+    color: #9b9b9b;
+}
+
+.gallery {
+    text-align: center;
+    color: #5a5a5a;
+    padding: 50px 0;
+}
+
+.gallery h1 {
+    line-height: 34px;
+}
+
+.buttons a {
+    display: inline-block;
+    color: #fff;
+    background: #fe655f;
+    line-height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons a.selected,
+.buttons a:hover {
+    background: #5a5a5c;
+}
+
+.gallery span {
+    margin: 10px 0 40px;
+    display: block;
+    line-height: 20px;
+    color: #9b9b9b;
+}
+
+.gallery {
+    text-align: center;
+    color: #5a5a5a;
+    padding: 50px 0;
+}
+
+.gallery h1 {
+    line-height: 34px;
+}
+
+.buttons a {
+    display: inline-block;
+    color: #fff;
+    background: #fe655f;
+    line-height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons a.selected {
+    background: #5a5a5c;
+}
+
+.pictures {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.pictures::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pictures img {
+    float: left;
+    width: calc(25% - 10px);
+    margin: 5px;
+    height: 150px;
+    object-fit: cover;
+    background: #ccc;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .info {
+    background: #282828;
+    color: #f8f8f8;
+    padding: 50px 0;
+}
+
+footer .info h2 {
+    margin: 5px 0;
+}
+
+footer .info p {
+    color: #a8a8a8;
+    margin: 10px 0;
+}
+
+footer .info div span i {
+    color: #fe655f;
+}
+
+footer .info div span {
+    margin-right: 40px;
+    color: #a8a8a8;
+}
+
+footer .info div span:last-child {
+    margin-right: 0;
+}
+
+footer>.info>div {
+    margin: 10px 0;
+}
+
+footer .info .social-media li {
+    display: inline-block;
+}
+
+footer .info .social-media li a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border-radius: 50%;
+}
+
+footer .info .social-media li a i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    background: #fe655f;
+}
+
+footer .info .social-media li a i.fa-facebook-f {
+    background: #5a7eab;
+}
+
+footer .info .social-media li a i.fa-twitter {
+    background: #72bed6;
+}
+
+footer .info .social-media li a i.fa-pinterest-p {
+    background: #bf5b54;
+}
+
+footer .rights {
+    background: #29242a;
+    line-height: 80px;
+    color: #aaa;
+}
